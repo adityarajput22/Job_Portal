@@ -37,27 +37,39 @@ dotenv
 📦 BackEnd
 BackEnd/
 ├── controllers/
-│   ├── application.controller.js
-│   ├── company.controller.js
-│   ├── job.controller.js
-│   └── user.controller.js
-├── middlewares/
-│   ├── isAuthenticated.js
-│   └── multer.js
+
+├── application.controller.js
+
+├── company.controller.js
+
+├── job.controller.js
+
+└── user.controller.js
+
+
+| ├── middlewares/
+|── isAuthenticated.js
+└── multer.js
+
+
 ├── models/
-│   ├── application.model.js
-│   ├── company.model.js
-│   ├── job.model.js
-│   └── user.model.js
+├── application.model.js
+├── company.model.js
+├── job.model.js
+└── user.model.js
+
+
 ├── routes/
-│   ├── application.route.js
-│   ├── company.routes.js
-│   ├── job.route.js
-│   └── user.routes.js
+├── application.route.js
+├── company.routes.js
+├── job.route.js
+└── user.routes.js
+
+
 ├── utils/
-│   ├── cloudinary.js
-│   ├── datauri.js
-│   └── db.js
+├── cloudinary.js
+├── datauri.js
+└── db.js
 └── index.js
 
 
